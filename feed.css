@@ -1,0 +1,135 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f2f5;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #4267B2;
+    color: white;
+}
+
+.header-left .logo {
+    height: 40px;
+}
+
+.header-center .search-bar {
+    width: 50%;
+    padding: 5px;
+    border-radius: 20px;
+    border: none;
+    padding-left: 15px;
+}
+
+.header-right .icon {
+    height: 30px;
+    cursor: pointer;
+}
+
+main {
+    padding: 80px 20px 20px 20px;
+}
+
+.create-post {
+    display: flex;
+    align-items: center;
+    background: white;
+    border-radius: 10px;
+    padding: 15px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.post-textarea {
+    width: calc(100% - 60px); /* Adjusted for profile pic width */
+    height: 40px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    margin-left: 10px;
+}
+
+.post {
+    background: white;
+    border-radius: 10px;
+    padding: 15px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.post-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.profile-pic {
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.post-info h3 {
+    margin: 0;
+}
+
+.post-info p {
+    margin: 0;
+    color: #888;
+}
+
+.post-content {
+    margin: 10px 0;
+}
+
+.post-actions {
+    display: flex;
+    justify-content: space-around;
+}
+
+.action-btn {
+    background: none;
+    border: none;
+    color: #4267B2;
+    cursor: pointer;
+    padding: 5px 10px;
+    font-size: 16px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    background-color: #4267B2;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 10px 0;
+}
+
+.nav-btn {
+    padding: 10px;
+    color: white;
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+/* Responsive Styles */
+@media screen and (max-width: 768px) {
+    .header-center .search-bar {
+        width: 70%;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .header-center .search-bar {
+        width: 80%;
+    }
+}

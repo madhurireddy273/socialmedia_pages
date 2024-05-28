@@ -1,0 +1,79 @@
+/* Add this to styles.css */
+header .add-event-btn {
+    background: #4267B2;
+    border: none;
+    color: white;
+    font-size: 24px;
+    padding: 5px 10px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.events .event {
+    background: white;
+    border-radius: 10px;
+    padding: 15px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.event-banner {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.event-details h3 {
+    margin: 10px 0 5px;
+}
+
+.event-details p {
+    margin: 5px 0;
+    color: #888;
+}
+
+.event-actions {
+    display: flex;
+    justify-content: space-around;
+}
+
+.event-actions .action-btn {
+    background: none;
+    border: none;
+    color: #4267B2;
+    cursor: pointer;
+    padding: 5px 10px;
+    font-size: 16px;
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+    background-color: #4267B2;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 10px 0;
+}
+
+.nav-btn {
+    padding: 10px;
+    color: white;
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+
+/* Responsive Styles */
+@media screen and (max-width: 768px) {
+    header .search-bar {
+        width: 60%;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    header .search-bar {
+        width: 70%;
+    }
+}

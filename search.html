@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="search.css">
+    <title>Search</title>
+</head>
+<body>
+    <header>
+        <button class="back-btn" onclick="navigateTo('feed.html')">&lt; Back</button>
+        <input type="text" placeholder="Search" class="search-bar">
+    </header>
+    <main>
+        <div class="tabs">
+            <button class="tab active" data-tab="all">All</button>
+            <button class="tab" data-tab="people">People</button>
+            <button class="tab" data-tab="posts">Posts</button>
+            <button class="tab" data-tab="teams">Teams</button>
+        </div>
+        <div class="results">
+            <!-- Search results will be displayed here -->
+        </div>
+    </main>
+    <nav>
+        <button class="nav-btn" onclick="feed.html">Home</button>
+        <button class="nav-btn" onclick="search.html">Search</button>
+        <button class="nav-btn" onclick="events.html">Events</button>
+        <button class="nav-btn">Profile</button>
+    </nav>
+    <script src="search.js"></script>
+</body>
+</html>
+
